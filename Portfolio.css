@@ -1,0 +1,179 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Belanosima&family=Geologica:wght@600&family=Hammersmith+One&family=Jost&family=REM&display=swap'); */
+
+
+  .left-nav{
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:20%;
+    background-color: rgb(220, 78, 35);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.profile_pic {
+    height:6em;
+    width:6em;
+    border: 5px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    
+}
+
+.nav-links ul {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.nav-links li a, .nav-links li {
+    color: white;
+    list-style:none;
+    text-transform: uppercase;
+    font-weight:700 ;
+    font-size: 1em;
+    line-height: 28px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration:none;
+    font-family: 'Jost',sans-serif;
+    padding:0.2em 0;
+}
+
+.right-content { 
+    left:22%;
+    position: absolute;
+    margin-left:0.5em;
+    width: inherit;
+}
+
+.main-section {
+    height:32em;
+    padding:40px;
+    border-bottom: 2px solid grey;
+}
+#about {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 80px;
+}
+.name{
+    font-family: 'Geologica', sans-serif;
+    margin-bottom:0.5em;
+    font-size: 3em;
+    font-weight: 1000;
+}
+.name-2{
+    color:rgb(220, 78, 35);
+}
+.personal-info, .profile-summary,p {
+    margin:1em 0;
+    font-family:'Belanosima', sans-serif;
+    color:rgb(61, 58, 58);
+}
+.personal-info ul {
+    list-style:none;
+}
+.personal-info li {
+    margin:0.5em 0;
+}
+
+.phone a, .email a {
+    color:rgb(220, 78, 35);
+}
+.social-media {
+    margin:2em 0 0;
+}
+.social-icon {
+    padding: 0 0.5em;
+}
+
+.social-icon:hover {
+    color:rgb(220, 78, 35);
+}
+
+h1 {
+    font-family:  'REM', sans-serif;
+    font-size: 2.3em;
+    font-weight: 1000;
+    text-transform:uppercase;
+}
+h2 {
+    font-family: 'REM', sans-serif;
+    font-size: 1.5em;
+    margin:2em 0;
+
+}
+.Education{
+    padding: 0.9em 0;
+}
+
+.Education-heading {
+    display:flex;
+    justify-content:space-between;
+    align-items:center ;
+    font-family:'Belanosima', sans-serif;
+}
+.Education-timing {
+    color:rgb(220, 78, 35);
+}
+.Education-title {
+    margin-bottom: 0.5em;
+}
+.Education-institution,.Education-location, .Education-grade{
+    margin:0 auto;
+    font-family: 'Jost',sans-serif;
+}
+
+.list-item {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.2em 0;
+    list-style: none;
+}
+.list-item span {
+    font-family:'Jost', sans-serif ;
+    padding: 0 0.5em;
+    font-size: 0.69em;
+}
+
+.list-item:hover {
+    color:rgb(220, 78, 35);
+}
+
+.certification-item h4 {
+    font-family: 'Jost',sans-serif;
+    padding: 0 0.5em;
+    font-size: 1em;
+}
+
+.Certification-item,.Certification-link,.Project-item,.Project-link{
+    margin:0 auto;
+    font-family: 'Jost',sans-serif;
+    font-size: 1.2em;
+}
+
+.Certification-link,.Project-link{
+    color:rgb(88, 83, 83);
+}
+
+.Certification-link strong {
+    padding-left:0.5em;
+}
+.Certification-link a:hover
+{
+    color:rgb(220, 78, 35);
+
+}
+
+.Certification-items, .Projects-items{
+    margin:2em 0;
+}
+
+.Project-link a:hover {
+    color:rgb(220, 78, 35);
+}
