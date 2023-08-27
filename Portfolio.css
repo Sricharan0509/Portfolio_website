@@ -91,6 +91,9 @@
     padding: 0 0.5em;
 }
 
+.social-icon{
+    color: black;
+}
 .social-icon:hover {
     color:rgb(220, 78, 35);
 }
