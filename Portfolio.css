@@ -55,7 +55,6 @@
 #Projects{
     height:50em;
     padding:40px;
-    border-bottom: 2px solid grey;
 }
 #about {
     display:flex;
