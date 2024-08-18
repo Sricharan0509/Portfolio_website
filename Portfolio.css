@@ -52,6 +52,11 @@
     padding:40px;
     border-bottom: 2px solid grey;
 }
+#Projects{
+    height:50em;
+    padding:40px;
+    border-bottom: 2px solid grey;
+}
 #about {
     display:flex;
     align-items: center;
